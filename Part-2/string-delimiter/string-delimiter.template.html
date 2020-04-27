@@ -1,0 +1,15 @@
+
+
+<div>
+    <label>Input: </label>
+    <input type="text" ng-model="inputString"  ng-init="inputString ='Angular is awesome'" ><br><br>
+
+    <label>Delimiter: </label>
+    <input id="delimiter" type="text" ng-model="delimiterString" ng-init="delimiterString ='#'">
+
+
+    <br><br>
+    <p>{{inputString | tokenizer:','}} <span> (Default) </span></p><br>
+    <p>{{inputString | tokenizer:delimiterString}} <span> (With Option) </span></p>
+
+</div>

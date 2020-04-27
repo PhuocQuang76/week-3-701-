@@ -1,0 +1,76 @@
+body{
+    margin: 30px;
+}
+
+table {
+    width: 800px;
+    background-color: silver;
+    border-collapse: collapse;
+    font-family: Futura, Arial,
+    sans-serif;
+}
+caption {
+    text-align: center;
+    font-size: x-large;
+    color:black;
+}
+th{
+    text-align: center;
+}
+th, td {
+    padding: .5em;
+
+}
+th, thead {
+
+    background: #000; color: #fff; border: 1px solid #000;
+
+}
+tr {
+    background: #ccc;
+}
+tr:hover {
+    background: #5fac9a;
+}
+td {
+    border-right: 1px solid #777;
+}
+table {
+    border: 2px solid #777;
+}
+
+td input{
+    border: 0px solid white;
+    box-shadow: 5px 5px #919191;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+tbody td>button {
+    border: 0px solid white;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #888888;
+}
+
+tfoot td {
+
+    text-align: center;
+    background: #000; color: #fff; border: 1px solid #000;
+    color: black !important;
+
+}
+tfoot tr, tfoot>tr>td>button{
+    border: 0px solid white;
+    padding: 10px;
+    border-radius: 10px;
+    width: 60px;
+    height: 30px;
+    font-size: 15px;
+    background-color: #888888;
+}
+
+button:hover {
+    color: #45a6fa;
+    background-color: #204d74;
+}
